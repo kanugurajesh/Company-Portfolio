@@ -4,6 +4,7 @@ import '../css/LowScreen.css';
 function App() {
   const [showDocs, setShowDocs] = useState(true);
   const [largeScreen, setLargeScreen] = useState(true);
+  const [transition, setTransition] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -40,8 +41,10 @@ function App() {
         </div>
         {!largeScreen && (
           <div id='bar'>
-          {showDocs && <div id="docs">Docs <span>→</span></div>}
-            <div id="menu">
+          {showDocs && <div id="docs" style={{color:'orange'}} >Docs <span>→</span></div>}
+            <div id="menu" onClick={()=>{
+              setTransition(!transition);
+          }}>
               <div></div>
               <div></div>
               <div></div>
@@ -53,15 +56,18 @@ function App() {
           <div id='lbar'>
             <li style={{color:'white'}}>Home</li>
             <li>Contact</li>  
-            {showDocs && <li id="docs">Docs <span>→</span></li>}
+            {showDocs && <li id="docs" style={{color:'orange'}} >Docs <span>→</span></li>}
           </div>
         )}
-
       </div>
-      {/* <div id="down-header">
-        <h3>Home</h3>
-        <h3>Contact</h3>
-      </div> */}
+
+      {(largeScreen || showDocs ) && (
+        <div id="down-header"  className={transition ? 'transitioned':''}>
+          <h3>Home</h3>
+          <h3>Contact</h3>
+        </div>
+      )}
+
     </div>
   );
 }
