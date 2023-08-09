@@ -3,13 +3,22 @@ import '../css/LowScreen.css';
 
 function App() {
   const [showDocs, setShowDocs] = useState(true);
+  const [largeScreen, setLargeScreen] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {
+      if (window.innerWidth > 990) {
+        setLargeScreen(true);
+      }
+      
       if (window.innerWidth <= 478) {
         setShowDocs(false);
       } else {
         setShowDocs(true);
+      }
+
+      if (window.innerWidth <= 990) {
+        setLargeScreen(false);
       }
     };
 
@@ -29,14 +38,25 @@ function App() {
         <div id="logo">
           <img src="/vect.svg" alt="" /> <span>Gmate</span>
         </div>
-        <div id='bar'>
+        {!largeScreen && (
+          <div id='bar'>
           {showDocs && <div id="docs">Docs <span>→</span></div>}
-          <div id="menu">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div id="menu">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
           </div>
-        </div>
+        )}
+
+        {largeScreen && (
+          <div id='bar'>
+            <li style={{color:'white'}}>Home</li>
+            <li>Contact</li>  
+            {showDocs && <div id="docs">Docs <span>→</span></div>}
+          </div>
+        )}
+
       </div>
       <div id="down-header">
         <h3>Home</h3>
