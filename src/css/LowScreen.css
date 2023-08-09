@@ -9,14 +9,18 @@
 }
 
 #top-header {
-    padding: 30px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #1a1a1a; */
 }
 
 #logo {
     color: white;
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     gap: 15px;
 }
@@ -25,11 +29,28 @@
     letter-spacing: 1px;
 }
 
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
 @media (min-width:320px) {
     #top-header img {
-        width:50px;
-        height:50px;
-    }    
+        width:60px;
+        height:60px;
+    }
+
+    #menu div {
+        width: 25px;
+        height: 1.5px;
+        background-color: white;
+    }
+
+    #menu {
+        margin-right: 20px;
+    }
 }
 
 @media (min-width:720px) {
