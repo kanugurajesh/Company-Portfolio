@@ -6,14 +6,14 @@ h4 {
     color: white;
     font-size: large;
     font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
 @media (min-width: 320px) {
     h4 {
         font-size: medium;
-        padding-top: 15px;
-        padding-bottom: 15px;
     }
 }
 

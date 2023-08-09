@@ -81,3 +81,30 @@
         border-bottom: 2px solid orange;
     }
 }
+
+@media (min-width:991px) {
+    #top-header img {
+        width:80px;
+        height:80px;
+    }
+
+    #menu div {
+        width: 35px;
+        height: 3px;
+        background-color: white;
+    }
+
+    #menu {
+        margin-right: 20px;
+    }
+
+    #logo span {
+        font-size: xx-large;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    }
+
+    #header {
+        position: relative;
+    }
+}
