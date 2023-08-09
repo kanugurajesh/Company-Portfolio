@@ -11,4 +11,9 @@
         margin-top: 5rem;
         margin-left: 18px;
     }
+
+    #section1-bottom img {
+        width: 80px;
+    }
+
 }
