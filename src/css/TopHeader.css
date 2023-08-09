@@ -2,9 +2,11 @@ h4 {
     padding: 5px;
     background-color: #ff3172;
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     color: white;
     letter-spacing: 1px;
     font-size: large;
     font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
