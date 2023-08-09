@@ -10,3 +10,9 @@ h4 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+@media (min-width: 352px) {
+    h4 {
+        font-size: medium;
+    }
+}
