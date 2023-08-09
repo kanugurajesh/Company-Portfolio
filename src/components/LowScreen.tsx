@@ -53,7 +53,7 @@ function App() {
           <div id='lbar'>
             <li style={{color:'white'}}>Home</li>
             <li>Contact</li>  
-            {showDocs && <div id="docs">Docs <span>→</span></div>}
+            {showDocs && <li id="docs">Docs <span>→</span></li>}
           </div>
         )}
 
