@@ -61,9 +61,3 @@
 
 }
 
-@media (min-width:720px) {
-    #top-header img {
-        width:80px;
-        height:80px;
-    }    
-}
