@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import '../css/LowScreen.css';
 
 function App() {
@@ -11,6 +11,8 @@ function App() {
       } else {
         setShowDocs(true);
       }
+
+
     };
 
     handleResize(); // Call the function once to set the initial state
