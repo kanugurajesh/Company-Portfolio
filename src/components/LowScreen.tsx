@@ -11,8 +11,6 @@ function App() {
       } else {
         setShowDocs(true);
       }
-
-
     };
 
     handleResize(); // Call the function once to set the initial state
