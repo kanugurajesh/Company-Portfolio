@@ -11,3 +11,16 @@
 #top-header {
     padding: 30px;
 }
+
+#logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    gap: 15px;
+}
+
+#logo span {
+    letter-spacing: 1px;
+}

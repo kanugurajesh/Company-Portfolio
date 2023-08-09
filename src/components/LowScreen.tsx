@@ -4,7 +4,7 @@ function App() {
     return (
       <div id="header">
         <div id="top-header">
-            <div className="logo"><img src="/vect.svg" alt="" /> Rajesh</div>
+            <div id="logo"><img src="/vect.svg" alt="" /> <span>Rajesh</span></div>
             <div id="slide-docs"></div>
             <div id="menu">
               <div></div>
