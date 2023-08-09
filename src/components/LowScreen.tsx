@@ -58,10 +58,10 @@ function App() {
         )}
 
       </div>
-      <div id="down-header">
+      {/* <div id="down-header">
         <h3>Home</h3>
         <h3>Contact</h3>
-      </div>
+      </div> */}
     </div>
   );
 }

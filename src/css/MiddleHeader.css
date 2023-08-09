@@ -1,18 +1,13 @@
 #section1 h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+    font-size: 2.1rem;
+    font-weight: 500;
     color: #fff;
-    text-align: center;
-    text-transform: uppercase;
     letter-spacing: 0.1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 320px) {
+    #section1 {
+        margin-top: 8rem;
+        margin-left: 18px;
+    }
 }

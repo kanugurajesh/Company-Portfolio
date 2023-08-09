@@ -58,10 +58,6 @@
         letter-spacing: 2px;
         font-weight: bolder;
     }
-
-    #header {
-        position: relative;
-    }
 }
 
 @media (min-width:479px) {
