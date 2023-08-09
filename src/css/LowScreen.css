@@ -63,3 +63,21 @@
         position: relative;
     }
 }
+
+@media (min-width:479px) {
+    #bar {
+        display:flex;
+        color: white;
+        gap: 35px;
+        align-items: center;
+    }
+
+    #docs {
+        font-size: large;
+        color: orange;
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 3px;
+        border-bottom: 2px solid orange;
+    }
+}
