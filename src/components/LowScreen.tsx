@@ -61,7 +61,7 @@ function App() {
         )}
       </div>
 
-      {(largeScreen || showDocs ) && (
+      {(!largeScreen) && (
         <div id="down-header"  className={transition ? 'transitioned':''}>
           <h3>Home</h3>
           <h3>Contact</h3>
