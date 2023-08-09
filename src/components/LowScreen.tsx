@@ -5,7 +5,6 @@ function App() {
       <div id="header">
         <div id="top-header">
             <div id="logo"><img src="/vect.svg" alt="" /> <span>Gmate</span></div>
-            <div id="slide-docs">Docs <span></span></div>
             <div id="menu">
               <div></div>
               <div></div>

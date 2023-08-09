@@ -24,3 +24,17 @@
 #logo span {
     letter-spacing: 1px;
 }
+
+@media (min-width:320px) {
+    #top-header img {
+        width:50px;
+        height:50px;
+    }    
+}
+
+@media (min-width:720px) {
+    #top-header img {
+        width:80px;
+        height:80px;
+    }    
+}
