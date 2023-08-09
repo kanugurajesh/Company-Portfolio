@@ -13,6 +13,6 @@ h4 {
 
 @media (min-width: 352px) {
     h4 {
-        font-size: medium;
+        font-size: small;
     }
 }
