@@ -136,16 +136,15 @@
     #lbar li {
         font-size: larger;
         color: white;
+        font-weight: bold;
         list-style: none;
     }
 
     #lbar li:nth-of-type(2) {
         color: #83878b;
-        font-weight: bold;
     }
 
     #lbar li:nth-of-type(2):hover {
         color: white;
     }
-    
 }
