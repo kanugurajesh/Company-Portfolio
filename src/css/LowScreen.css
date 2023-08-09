@@ -9,7 +9,7 @@
 }
 
 #top-header {
-    padding: 12px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,7 @@
 
 #logo span {
     letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #menu {
@@ -38,8 +39,8 @@
 
 @media (min-width:320px) {
     #top-header img {
-        width:60px;
-        height:60px;
+        width:55px;
+        height:55px;
     }
 
     #menu div {
@@ -51,6 +52,12 @@
     #menu {
         margin-right: 20px;
     }
+
+    #logo span {
+        font-size: x-large;
+        letter-spacing: 1px;
+    }
+
 }
 
 @media (min-width:720px) {
