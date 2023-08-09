@@ -9,7 +9,7 @@
 }
 
 #top-header {
-    padding: 15px;
+    padding: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +45,7 @@
 
     #menu div {
         width: 25px;
-        height: 1.5px;
+        height: 2px;
         background-color: white;
     }
 
@@ -55,7 +55,8 @@
 
     #logo span {
         font-size: x-large;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
+        font-weight: bolder;
     }
 
 }
