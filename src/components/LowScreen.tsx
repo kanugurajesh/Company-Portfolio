@@ -50,7 +50,7 @@ function App() {
         )}
 
         {largeScreen && (
-          <div id='bar'>
+          <div id='lbar'>
             <li style={{color:'white'}}>Home</li>
             <li>Contact</li>  
             {showDocs && <div id="docs">Docs <span>→</span></div>}

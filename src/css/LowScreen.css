@@ -22,7 +22,7 @@
     align-items: center;
     font-size: 25px;
     font-weight: bold;
-    gap: 5px;
+    gap: 8px;
 }
 
 #logo span {
@@ -84,8 +84,9 @@
     #bar {
         display:flex;
         color: white;
-        gap: 35px;
+        gap: 30px;
         align-items: center;
+        margin-right: 30px;
     }
 
     #docs {
@@ -99,8 +100,8 @@
 
 @media (min-width:991px) {
     #top-header img {
-        width:80px;
-        height:80px;
+        width:70px;
+        height:70px;
     }
 
     #menu div {
@@ -122,4 +123,29 @@
     #header {
         position: relative;
     }
+
+    #lbar {
+        display:flex;
+        color: white;
+        gap: 30px;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 30px;
+    }
+
+    #lbar li {
+        font-size: larger;
+        color: white;
+        list-style: none;
+    }
+
+    #lbar li:nth-of-type(2) {
+        color: #83878b;
+        font-weight: bold;
+    }
+
+    #lbar li:nth-of-type(2):hover {
+        color: white;
+    }
+    
 }
