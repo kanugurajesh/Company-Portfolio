@@ -3,6 +3,7 @@
     font-weight: 500;
     color: #fff;
     letter-spacing: 0.1rem;
+    line-height: 1.2;
 }
 
 @media (min-width: 320px) {
