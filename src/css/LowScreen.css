@@ -22,7 +22,7 @@
     align-items: center;
     font-size: 25px;
     font-weight: bold;
-    gap: 15px;
+    gap: 10px;
 }
 
 #logo span {
@@ -65,6 +65,22 @@
 }
 
 @media (min-width:479px) {
+
+    #top-header img {
+        width:65px;
+        height:65px;
+    }
+
+    #top-header {
+        padding: 30px;
+    }
+    
+    #menu div {
+        width: 30px;
+        height: 2px;
+        background-color: white;
+    }
+
     #bar {
         display:flex;
         color: white;
@@ -76,7 +92,6 @@
         font-size: larger;
         color: orange;
         letter-spacing: 1px;
-        font-family: 'Poppins', sans-serif;
         padding-bottom: 3px;
         border-bottom: 2px solid orange;
     }
