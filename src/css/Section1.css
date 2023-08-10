@@ -10,10 +10,13 @@
     #section2-div {
         padding-left: 18px;
         padding-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
     }
 
     #section2-div h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: 500;
         color: #fff;
         letter-spacing: 0.1rem;
@@ -21,11 +24,18 @@
     }
 
     #section2-div h3 {
-        font-size: 1.2rem;
-        font-size: larger;
+        width: 50%;
+        font-size: 1rem;
+        font-size: large;
         color: orange;
         letter-spacing: 1px;
-        padding-bottom: 3px;
+        padding-bottom: 5px;
         border-bottom: 2px solid orange;
+    }
+
+    #section2-div > div {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 }

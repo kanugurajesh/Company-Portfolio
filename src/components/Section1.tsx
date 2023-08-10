@@ -6,7 +6,7 @@ function App() {
             <div id="section2-div">
                 <div>
                     <h1>Scalable Infrastructure to build Cosmos apps fast and easy.</h1>
-                    <h3>Get Started <span></span></h3>
+                    <h3>Get Started <span>→</span></h3>
                 </div>
                 <div>
                     <p>Numia is an on-chain Data Indexer and RPC provider that gives you the infrastructure to build apps fast and easy.</p>
