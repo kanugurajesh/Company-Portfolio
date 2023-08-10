@@ -79,4 +79,47 @@
         margin-top: 40px;
     }
 
+    #section1-bottom img {
+        width: 120px;
+    }
+
+}
+
+@media (min-width:991px) {
+
+    #section1-top {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    #section1 {
+        padding-top: 6rem;
+        padding-left: 10rem;
+        padding-right: 6rem;
+        padding-bottom: 1rem;
+    }
+
+    #section1-top h1 {
+        font-size: 5.5rem;
+        font-weight: 500;
+        color: #fff;
+        letter-spacing: 0.1rem;
+        line-height: 1.2;
+    }
+
+    #section1-bottom div {
+        display:grid;
+        /* create columsn each with 1fr  */
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    #section1-bottom img {
+        width: 200px;
+    }
+
+    #section1-bottom {
+        margin-top: 150px;
+    }
+
 }

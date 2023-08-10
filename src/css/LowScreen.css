@@ -124,6 +124,12 @@
 }
 
 @media (min-width:991px) {
+
+    #top-header {
+        padding: 40px 50px;
+        padding-right: 20px;
+    }
+
     #top-header img {
         width:70px;
         height:70px;
