@@ -97,7 +97,7 @@
     }
 
     #top-header {
-        padding: 30px 40px;
+        padding: 30px 20px;
     }
     
     #menu div {
@@ -111,7 +111,7 @@
         color: white;
         gap: 30px;
         align-items: center;
-        margin-right: 30px;
+        margin-right: 5px;
     }
 
     #docs {

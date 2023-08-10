@@ -51,5 +51,32 @@
         flex-direction: column;
         gap: 20px;
     }
+}
+
+@media (min-width:479px) {
+
+    #section1 {
+        margin-top: 3rem;
+        margin-left: 15px;
+        margin-right: 30px;
+    }
+
+    #section1-top h1 {
+        font-size: 3.5rem;
+        font-weight: 500;
+        color: #fff;
+        letter-spacing: 0.1rem;
+        line-height: 1.2;
+    }
+
+    #section1-bottom div {
+        display:grid;
+        /* create columsn each with 1fr  */
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    #section1-bottom {
+        margin-top: 40px;
+    }
 
 }
