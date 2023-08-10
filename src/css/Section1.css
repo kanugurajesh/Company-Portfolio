@@ -11,4 +11,12 @@
         padding-left: 18px;
         padding-top: 8rem;
     }
+
+    #section2-div h1 {
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: #fff;
+        letter-spacing: 0.1rem;
+        line-height: 1.1;
+    }
 }
