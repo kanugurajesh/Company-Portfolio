@@ -41,3 +41,20 @@
         gap: 2rem;
     }
 }
+
+@media (min-widtH:479px) {
+    #section2-div h1 {
+        font-size: 2.1rem;
+    }
+}
+
+@media (min-width:991px) {
+    #section2-div {
+        padding-left: 18px;
+        padding-top: 8rem;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        padding-bottom: 8rem;
+    }
+}
