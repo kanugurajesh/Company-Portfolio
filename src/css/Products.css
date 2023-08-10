@@ -1,0 +1,19 @@
+#boxes {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+@media (min-width:320px) {
+    #boxes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .box img {
+        width: 100%;
+    }
+}
