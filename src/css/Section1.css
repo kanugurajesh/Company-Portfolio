@@ -19,4 +19,13 @@
         letter-spacing: 0.1rem;
         line-height: 1.1;
     }
+
+    #section2-div h3 {
+        font-size: 1.2rem;
+        font-size: larger;
+        color: orange;
+        letter-spacing: 1px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid orange;
+    }
 }
