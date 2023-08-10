@@ -10,6 +10,7 @@
     #section1 {
         margin-top: 5rem;
         margin-left: 18px;
+        margin-right: 25px;
     }
 
     #section1-top h5 {
@@ -20,11 +21,31 @@
         line-height: 1.2;
     }
 
-    #section1-bottom img {
-        margin-top: 20px;
-        width: 80px;
+    #section1-bottom {
+        margin-top: 80px;
     }
 
+    #section1-bottom p {
+        font-size: 0.9rem;
+        font-weight: 900;
+        color: #fff;
+        letter-spacing: 0.1rem;
+        color: #878a8e;
+        margin-bottom: 20px;
+        /* line-height: 1.2; */
+    }
+
+    #section1-bottom img {
+        /* margin-top: 50px; */
+        width: 85px;
+    }
+
+    #section1-bottom div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
     #section1-top {
         display: flex;
         flex-direction: column;
