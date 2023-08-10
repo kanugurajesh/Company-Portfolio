@@ -5,3 +5,10 @@
 #section2 *{
     background-color: #1e2028;
 }
+
+@media (min-width:320px) {
+    #section2-div {
+        padding-left: 18px;
+        padding-top: 8rem;
+    }
+}
