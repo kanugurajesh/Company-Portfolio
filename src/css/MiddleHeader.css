@@ -41,9 +41,9 @@
     }
 
     #section1-bottom div {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
+        display:grid;
+        /* create columsn each with 1fr  */
+        grid-template-columns: repeat(3, 1fr);
     }
     
     #section1-top {
