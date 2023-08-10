@@ -1,9 +1,8 @@
 #section2 {
     padding-left: 18px;
-    background-color: #1e2028;
     width: 100%;
 }
 
-#section2 div{
+#section2 *{
     background-color: #1e2028;
 }
