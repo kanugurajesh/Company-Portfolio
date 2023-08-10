@@ -50,7 +50,8 @@
 
 @media (min-width:991px) {
     #section2-div {
-        padding-left: 18px;
+        padding-left: 5rem;
+        padding-right: 5rem;
         padding-top: 8rem;
         display: flex;
         flex-direction: row;

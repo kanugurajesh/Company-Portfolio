@@ -1,23 +1,38 @@
 #boxes {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
+}
+
+#products {
+    text-align: center;
+    color: white;
+}
+
+#products h1 {
+    margin-top: 1rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    background-color: #1e2028;
 }
 
 @media (min-width:320px) {
     #boxes {
+        margin-top: 50px;
         grid-template-columns: repeat(1, 1fr);
     }
 
     .box {
+        padding-bottom: 50px;
         width: 100%;
+        max-width: 500px;
         margin: auto;
-        max-width: 400px;
-        overflow: hidden;
+        border-radius: 2%;
+        background-color: #1e2028;
     }
 
     .box img {
         width: 100%;
+        max-width: 400px;
     }
 }
-
-/*  */
