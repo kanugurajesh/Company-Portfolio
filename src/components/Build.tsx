@@ -1,7 +1,9 @@
+import "../css/Build.css"
+
 function App() {
     return (
         <div id="build">
-            <h1>Built for all types of projects</h1>
+            <h2>Built for all types of projects</h2>
             <div>
                 <div className="block">
                     <h3>App Chains</h3>
