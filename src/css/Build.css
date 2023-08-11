@@ -8,6 +8,9 @@
 
 #build-inner {
     border-top: 2px solid #1e2028;
+    border-bottom: 2px solid #1e2028;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 #build h2{
