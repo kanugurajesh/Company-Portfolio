@@ -21,3 +21,7 @@
     flex-direction: row;
     gap: 10px;
 }
+
+#footer footer img {
+    width: 50px;
+}
