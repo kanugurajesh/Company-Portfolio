@@ -29,6 +29,7 @@
 
 #footer footer img {
     width: 60px;
+    margin-top: 3rem;
 }
 
 @media (min-width:479px) {
