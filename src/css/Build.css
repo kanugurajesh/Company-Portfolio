@@ -29,6 +29,7 @@
     text-align: center;
     padding: 30px;
     background-color: #1e2028;
+    border-radius: 10%;
 }
 
 #block-contain {
@@ -53,6 +54,10 @@
 }
 
 @media (min-width:991px) {
+    #build h2{
+        font-size: 2rem;
+    }
+
     #block-contain {
         grid-template-columns: repeat(4,1fr);
     }
