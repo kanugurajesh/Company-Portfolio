@@ -42,6 +42,10 @@
     background-color: #1e2028;
 }
 
+.block p {
+    color: #788591;
+}
+
 #block-contain {
     display: grid;
     grid-template-columns: repeat(1,1fr);
