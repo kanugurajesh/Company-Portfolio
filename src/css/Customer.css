@@ -17,10 +17,10 @@
 
 #support-text h1,h3 {
     font-weight: 500;
+    text-align: left;
 }
 
 #support-text h3 {
     margin-top: 10px;
     color: #8d8e94;
-    text-align: left;
 }
