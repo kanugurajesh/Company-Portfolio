@@ -5,7 +5,7 @@ function App() {
         <section id="build">
             <div id="build-inner">
                 <h2>Built for all types of projects</h2>
-                <div>
+                <div id="block-contain">
                     <div className="block">
                         <h3>App Chains</h3>
                         <p>Extend your chain functionality with powerful Analytics and reliable APIs.</p>

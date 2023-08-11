@@ -9,8 +9,11 @@
 #build-inner {
     border-top: 2px solid #1e2028;
     border-bottom: 2px solid #1e2028;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 #build h2{
@@ -24,9 +27,25 @@
     flex-direction: column;
     gap: 1.2rem;
     text-align: center;
+    padding: 30px;
+    background-color: #1e2028;
+}
+
+#block-contain {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+}
+
+.block * {
+    background-color: #1e2028;
 }
 
 #build-inner > div {
     display: grid;
     grid-template-columns: repeat(1,1fr);
+}
+
+@media (min-width:320px) {
+
 }
