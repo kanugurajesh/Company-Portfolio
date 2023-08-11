@@ -8,7 +8,7 @@ function App() {
             </div>
             <div id="support-text">
                 <h1>Cosmos Chains We Support</h1>
-                <h2>More Coming Soon</h2>
+                <h3>More Coming Soon</h3>
             </div>
         </section>
     )
