@@ -41,11 +41,13 @@
     background-color: #1e2028;
 }
 
-#build-inner > div {
+#block-contain {
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
 
-@media (min-width:320px) {
-
+@media (min-width:767px) {
+    #block-contain {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
