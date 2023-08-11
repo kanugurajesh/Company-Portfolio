@@ -1,10 +1,13 @@
-#build {
+#build{
     display: flex;
     flex-direction: column;
-    padding-left: 18px;
-    padding-right: 18px;
     gap: 1rem;
     color: white;
+    padding: 2rem 18px;
+}
+
+#build-inner {
+    border-top: 2px solid rebeccapurple;
 }
 
 #build h2{
@@ -20,7 +23,7 @@
     text-align: center;
 }
 
-#build > div {
+#build-inner > div {
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
