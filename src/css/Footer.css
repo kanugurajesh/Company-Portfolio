@@ -36,3 +36,10 @@
         gap: 5rem;
     }
 }
+
+@media (min-width:767px) {
+    #footer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
