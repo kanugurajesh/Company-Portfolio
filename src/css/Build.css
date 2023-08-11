@@ -29,7 +29,8 @@
     text-align: center;
     padding: 30px;
     background-color: #1e2028;
-    border-radius: 20%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 #block-contain {
