@@ -6,6 +6,7 @@ import Section1 from './components/Section1'
 import Products from './components/Products'
 import Build from './components/Build'
 import Customer from './components/Customer'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Products />
       <Build />
       <Customer />
+      <Footer />
     </>
   )
 }
