@@ -15,8 +15,8 @@ function App() {
             <div>
                 <h1>Social</h1>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li><img src="/twitter.svg" alt="" /></li>
+                    <li><img src="/github.svg" alt="" /></li>
                 </ul>
             </div>
         </section> 
