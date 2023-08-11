@@ -54,5 +54,13 @@
     #footer-div {
         padding-bottom: 0rem;
     }
+}
 
+@media (min-width:991px) {
+    #footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
