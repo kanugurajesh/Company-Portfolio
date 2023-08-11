@@ -77,4 +77,14 @@
     }
 }
 
+@media (min-width:991px) {
+    #boxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #boxes1 {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
 /* hi i am rajesh */
