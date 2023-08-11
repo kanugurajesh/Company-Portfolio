@@ -22,9 +22,9 @@ function App() {
             <footer>
                 <div>
                     <img src="/vect.svg" alt="" />
-                    <h3>Gmate</h3>
+                    <h3 style={{fontWeight:'bold',letterSpacing:'0.1rem',lineHeight:'1.1',marginTop:'5px'}}>Gmate</h3>
                 </div>
-                <h3 style={{color:'#b2d1f5'}}>The Cosmos Data & Development Platform</h3>
+                <h3 style={{color:'#b2d1f5',marginTop:'10px'}}>The Cosmos Data & Development Platform</h3>
             </footer>
         </section> 
     )
