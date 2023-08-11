@@ -17,7 +17,7 @@
         margin-top: 5rem;
         margin-left: 18px;
         margin-right: 25px;
-        padding-bottom: 3rem;
+        padding-bottom: 4rem;
     }
 
     #section1-top h5 {
@@ -82,6 +82,10 @@
 
 @media (min-width:991px) {
 
+    #section1 {
+        padding-bottom: 5rem;
+    }
+
     #section1-top {
         display: flex;
         flex-direction: column;
@@ -92,7 +96,7 @@
         padding-top: 6rem;
         padding-left: 10rem;
         padding-right: 6rem;
-        padding-bottom: 1rem;
+        /* padding-bottom: 1rem; */
     }
 
     #section1-top h1 {
