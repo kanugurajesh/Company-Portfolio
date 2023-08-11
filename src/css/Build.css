@@ -46,6 +46,10 @@
     color: #788591;
 }
 
+.block h3 {
+    text-align: center;
+}
+
 #block-contain {
     display: grid;
     grid-template-columns: repeat(1,1fr);
