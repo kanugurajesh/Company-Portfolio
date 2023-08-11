@@ -12,4 +12,12 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,53,121,1) 0%, rgba(28,112,184,1) 0%, rgba(12,168,224,1) 0%, rgba(0,212,255,1) 90%, rgba(0,210,253,1) 100%);
     padding-top: 8rem;
     padding-left: 18px;
+    padding-bottom: 4rem;
+}
+
+#footer ul {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
