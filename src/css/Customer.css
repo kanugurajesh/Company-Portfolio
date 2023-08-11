@@ -1,0 +1,9 @@
+#customer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#support-img img {
+    width: 95%;
+}
