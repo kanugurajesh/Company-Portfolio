@@ -19,6 +19,13 @@ function App() {
                     <li style={{color:'#b2d1f5'}}><a href="https://github.com/rajesh604"><img src="/github.svg" alt="" /></a></li>
                 </ul>
             </div>
+            <div>
+                <div>
+                    <img src="/vect.svg" alt="" />
+                    <h3>Gmate</h3>
+                </div>
+                <h3>The Cosmos Data & Development Platform</h3>
+            </div>
         </section> 
     )
 }
