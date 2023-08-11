@@ -4,7 +4,7 @@ function App() {
     return (
         <section id="footer">
             <div>
-                <h3 style={{marginBottom:'3rem'}}>Navigation</h3>
+                <h3 style={{marginBottom:'2rem'}}>Navigation</h3>
                 <h3 style={{color:'#b2d1f5'}}>Home</h3>
                 <h3 style={{color:'#b2d1f5'}}>Contact</h3>
             </div>
