@@ -4,7 +4,7 @@ import LowScreen from './components/LowScreen'
 import MiddleHeader from './components/MiddleHeader'
 import Section1 from './components/Section1'
 import Products from './components/Products'
-import Build from './components/build'
+import Build from './components/Build'
 function App() {
   return (
     <>
