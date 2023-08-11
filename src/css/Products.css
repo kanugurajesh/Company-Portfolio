@@ -3,6 +3,12 @@
     grid-gap: 2rem;
 }
 
+#boxes1 {
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+}
+
 #products {
     text-align: center;
     color: white;
@@ -16,10 +22,24 @@
     background-color: #1e2028;
 }
 
+.orange-down {
+    margin: auto;
+    font-size: large;
+    font-weight: 500;
+    color: orange;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid orange;
+}
+
 @media (min-width:320px) {
     #boxes {
         margin-top: 50px;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    #boxes1 {
+        grid-template-columns: repeat(1,1fr);
     }
 
     .box {
@@ -32,6 +52,24 @@
         max-width: 400px;
         margin: auto;
         border-radius: 2%;
+        background-color: #1e2028;
+    }
+
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 20px;
+        padding-bottom: 50px;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+        border-radius: 2%;
+        background-color: #1e2028;
+    }
+
+    .box1 * {
         background-color: #1e2028;
     }
 
