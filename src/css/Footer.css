@@ -32,6 +32,11 @@
     width: 60px;
 }
 
+#footer footer > div {
+    display: flex;
+    gap: 0.5rem;
+}
+
 @media (min-width:479px) {
     #footer-div {
         flex-direction: row;
@@ -62,5 +67,9 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #padding-div {
+        padding-bottom: 0rem;
     }
 }
