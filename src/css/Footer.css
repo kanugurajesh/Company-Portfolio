@@ -33,6 +33,6 @@
 @media (min-width:479px) {
     #footer-div {
         flex-direction: row;
-        gap: 5zrem;
+        gap: 5rem;
     }
 }
