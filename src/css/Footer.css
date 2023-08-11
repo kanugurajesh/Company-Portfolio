@@ -18,6 +18,7 @@
     gap: 2rem;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,53,121,1) 0%, rgba(0,188,255,1) 0%, rgba(0,137,255,1) 0%, rgba(0,146,255,1) 0%, rgba(0,146,255,1) 91%);
+    padding-bottom: 4rem;
 }
 
 #footer ul {
@@ -29,7 +30,6 @@
 
 #footer footer img {
     width: 60px;
-    margin-top: 3rem;
 }
 
 @media (min-width:479px) {
@@ -41,7 +41,18 @@
 
 @media (min-width:767px) {
     #footer {
+        padding-top: 0rem;
         display: flex;
         flex-direction: column-reverse;
     }
+
+    #footer footer {
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+    }
+
+    #footer-div {
+        padding-bottom: 0rem;
+    }
+
 }
