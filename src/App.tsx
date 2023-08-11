@@ -5,6 +5,8 @@ import MiddleHeader from './components/MiddleHeader'
 import Section1 from './components/Section1'
 import Products from './components/Products'
 import Build from './components/Build'
+import Customer from './components/Customer'
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
       <Section1 />
       <Products />
       <Build />
+      <Customer />
     </>
   )
 }
