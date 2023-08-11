@@ -4,7 +4,7 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,53,121,1) 0%, rgba(0,188,255,1) 0%, rgba(0,137,255,1) 0%, rgba(0,146,255,1) 0%, rgba(0,146,255,1) 91%);
 }
 
-#footer {
+#footer-div{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -24,4 +24,15 @@
 
 #footer footer img {
     width: 60px;
+}
+
+#footer footer {
+    padding-left: 18px;
+}
+
+@media (min-width:479px) {
+    #footer-div {
+        flex-direction: row;
+        gap: 5zrem;
+    }
 }
