@@ -9,12 +9,12 @@ function App() {
                 <h3>Contact</h3>
             </div>
             <div>
-                <h1>Resources</h1>
-                <h1>Docs</h1>
+                <h3>Resources</h3>
+                <h3>Docs</h3>
             </div>
             <div>
-                <h1>Social</h1>
-                <ul>
+                <h3>Social</h3>
+                <ul style={{listStyle:'none'}}>
                     <li><a href="https://twitter.com/exploringengin1"><img src="/twitter.svg" alt="" /></a></li>
                     <li><a href="https://github.com/rajesh604"><img src="/github.svg" alt="" /></a></li>
                 </ul>
