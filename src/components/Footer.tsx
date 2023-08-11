@@ -24,7 +24,7 @@ function App() {
                     <img src="/vect.svg" alt="" />
                     <h3>Gmate</h3>
                 </div>
-                <h3>The Cosmos Data & Development Platform</h3>
+                <h3 style={{color:'#b2d1f5'}}>The Cosmos Data & Development Platform</h3>
             </div>
         </section> 
     )
