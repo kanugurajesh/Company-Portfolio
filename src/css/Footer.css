@@ -72,4 +72,9 @@
     #padding-div {
         padding-bottom: 0rem;
     }
+
+    #footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
